@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Enter the customer Id</p>
+        <div class="">
+            <div class="form-group col-md-9">
+                <input id="customerId" type="text" class="form-control">
+            </div>
+            <div class="form-group col-md-3">
+                <button type="submit" class="btn btn-primary" onclick="getCustomerReward()">Search</button>
+
+            </div>
+        </div>
+        <p id="customerResult"></p>
+        <p id="rewardFor"></p>
+        <p id="award"></p>
+    </div>
+
+</body>
+
+</html>
+<script src="./js/feed.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/reward.js"></script>
